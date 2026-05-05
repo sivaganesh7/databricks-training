@@ -20,11 +20,13 @@
 
 ## 🎯 Goals
 
-- ✅ Master SQL advanced queries
-- ✅ Understand the Databricks ecosystem
-- ✅ Build strong data engineering pipelines
-- ✅ Practice real-time scenarios
+- Master SQL advanced queries
+- Understand the Databricks ecosystem
+- Build strong data engineering pipelines
+- Practice real-time scenarios
 
 ## Week 1 – SQL Fundamentals
 
-### 🟢 Day 1: SQL Queries Practice
+### 🟢 Day 1: 
+    -> Git-Repo Set-Up
+    -> SQL Queries Practice
