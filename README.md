@@ -29,20 +29,8 @@
 ## Week 1 – SQL Fundamentals
 
 ### 🟢Day 1
-
-      => Git Repo Set-Up <br>
-      => SQL Queries Practice
+      => Git Repo Set-Up 
+      => SQL Queries Practiced
     
-      Explored intermediate to advanced SQL concepts with deep understanding and hands-on practice by solving a variety of real queries.
-
-      -> SQL Intermediate Level  
-      -> Operators  
-      -> Aggregate Functions  
-      -> GROUP BY & HAVING  
-      -> Special Operators - IN, BETWEEN, LIKE, IS NULL, EXISTS  
-      -> Subqueries  
-      -> Types of Subqueries - Scalar, Row, Column, Correlated  
-      -> Joins - INNER, LEFT, RIGHT, FULL OUTER, SELF  
-      -> Set Operators - UNION, UNION ALL, INTERSECT, EXCEPT  
 
 ---
