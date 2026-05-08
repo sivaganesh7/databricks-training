@@ -31,6 +31,8 @@
 ### 🟢Day 1
       => Git Repo Set-Up 
       => SQL Queries Practiced
-    
+### 🟢Day 2
+      => SQL JOINS Practiced
+      -> Joins - INNER, LEFT, RIGHT, FULL OUTER, CROSS JOINS 
 
 ---
