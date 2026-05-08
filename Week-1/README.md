@@ -26,4 +26,4 @@
       -> Joins - INNER, LEFT, RIGHT, FULL OUTER, CROSS  
       -> Gained in-depth Knowledge by practical learning
       -> Lean Window Functions- ROW_NUMBER() , RANK(), DENSE_RANK(), LAG(), PARTITION BY, LEAD()  
-      -> Solve 0 Window Functions Queries.
+      -> Solve 10 Window Functions Queries.
