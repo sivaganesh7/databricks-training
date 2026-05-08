@@ -75,7 +75,6 @@ where e.course_id is null;
 
 -- q10 : create report with student name, course name, instructor name
 -- include rows even if course or instructor data is missing
-
 select s.student_name,
        c.course_name,
        i.instructor_name
