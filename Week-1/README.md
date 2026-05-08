@@ -20,3 +20,8 @@
       -> Set Operators - UNION, UNION ALL, INTERSECT, EXCEPT  
 
 ---
+### 🟢Day 2
+      => SQL JOINS Practiced
+      
+      -> Joins - INNER, LEFT, RIGHT, FULL OUTER, CROSS  
+      -> Gained in-depth Knowledge by practical learning
