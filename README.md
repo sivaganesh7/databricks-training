@@ -34,5 +34,6 @@
 ### 🟢Day 2
       => SQL JOINS Practiced
       -> Joins - INNER, LEFT, RIGHT, FULL OUTER, CROSS JOINS 
+      -> learnt Window Functions (ROW_NUMBER() , RANK()..etc) and Solve 10 Window Functions Queries.
 
 ---
