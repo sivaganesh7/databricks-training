@@ -27,3 +27,6 @@
       -> Gained in-depth Knowledge by practical learning
       -> Learnt Window Functions- ROW_NUMBER() , RANK(), DENSE_RANK(), LAG(), PARTITION BY, LEAD()  
       -> Solve 10 Window Functions Queries.
+
+### 🟢Day 3
+      -> Solved 10 new Window Functions Queries.
