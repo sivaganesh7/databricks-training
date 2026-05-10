@@ -34,7 +34,8 @@
 ### 🟢Day 2
       => SQL JOINS Practiced
       -> Joins - INNER, LEFT, RIGHT, FULL OUTER, CROSS JOINS 
-      -> learnt Window Functions (ROW_NUMBER() , RANK()..etc) and Solve 10 Window Functions Queries.
 ### 🟢Day 3
       -> Solved 10 new Window Functions Queries.
+### 🟢Day 4
+      -> Learnt CTE(Common Table Expression) and Solved 10 CTE Queries.
 ---
