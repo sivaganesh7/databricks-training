@@ -32,4 +32,5 @@
       => Joins-INNER, LEFT, RIGHT, FULL OUTER, CROSS JOINS 
       => Solved 10 new Window Functions Queries.
       => Learnt CTE(Common Table Expression) and Solved 10 CTE Queries.
+      =>Solved CMS_Starter Practice Questions.
 ---
