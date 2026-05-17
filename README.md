@@ -32,6 +32,7 @@
       => Joins-INNER, LEFT, RIGHT, FULL OUTER, CROSS JOINS 
       => Solved 10 new Window Functions Queries.
       => Learnt CTE(Common Table Expression) and Solved 10 CTE Queries.
+<<<<<<< HEAD
       => Solved CMS_Starter Practice Questions.
 
 ---
@@ -44,4 +45,7 @@
       => Mastered Null Functions (COALESCE, IFNULL, NULLIF, IS NULL, CASE WHEN)
       => Learnt REGEX Patterns and Completed Data Validation Assignment
 
+=======
+      =>Solved CMS_Starter Practice Questions.
+>>>>>>> 611d2a24129c6c768cce88154198d2c0372bd5a4
 ---
