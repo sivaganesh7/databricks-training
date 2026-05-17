@@ -32,4 +32,16 @@
       => Joins-INNER, LEFT, RIGHT, FULL OUTER, CROSS JOINS 
       => Solved 10 new Window Functions Queries.
       => Learnt CTE(Common Table Expression) and Solved 10 CTE Queries.
+      => Solved CMS_Starter Practice Questions.
+
+---
+
+## Week 2
+      => Mastered String Functions (UPPER, LOWER, CONCAT, SUBSTRING, REPLACE, TRIM, INSTR, REVERSE)
+      => Learnt Date Manipulation (CURRENT_DATE, YEAR, MONTH, DAY, DATE_ADD, DATE_SUB, DATEDIFF, DATE_FORMAT)
+      => Practiced Number Manipulation (ROUND, CEIL, FLOOR, ABS, MOD, POWER, SQRT, LOG, SIGN, GREATEST, LEAST)
+      => Completed StrDataNum Assignment - Combined String, Date, and Number Functions
+      => Mastered Null Functions (COALESCE, IFNULL, NULLIF, IS NULL, CASE WHEN)
+      => Learnt REGEX Patterns and Completed Data Validation Assignment
+
 ---
