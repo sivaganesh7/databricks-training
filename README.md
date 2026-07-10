@@ -42,3 +42,19 @@
       => Mastered Null Functions (COALESCE, IFNULL, NULLIF, IS NULL, CASE WHEN)
       => Learnt REGEX Patterns and Completed Data Validation Assignment
 ---
+
+## Week 3
+      => Learned PySpark basics by reading CSV files and displaying data in Databricks
+      => Practiced DataFrame operations using SELECT and ALIAS transformations
+      => Worked on FILTER / WHERE conditions with logical operators and string matching
+      => Renamed DataFrame columns using withColumnRenamed() and explored schema changes
+      => Built hands-on PySpark practice notebooks for day-wise DataFrame exercises
+---
+
+## Week 4
+      => Built SQL and PySpark data analysis workflows for customer and sales data
+      => Compared SQL queries with Spark DataFrame transformations for the same business tasks
+      => Cleaned source data by handling missing customer IDs and validating numeric fields
+      => Completed ETL pipelines for daily sales, city-wise revenue, repeat customers, and final reporting
+      => Documented schemas, analysis steps, and output screenshots for both Phase 2 and Phase 3
+---
