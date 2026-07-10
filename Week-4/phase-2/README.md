@@ -1,43 +1,32 @@
-# 📊 Week 4 – Phase 2: SQL & PySpark Data Analysis
+# Week 4 - Phase 2: SQL and PySpark Data Analysis
 
-A mini data engineering project that performs customer and sales analysis using **SQL** and **PySpark**. The project demonstrates how common analytical queries can be implemented using both SQL and Spark DataFrame APIs to generate meaningful business insights.
+This phase-2 project analyzes customer and sales data with both SQL and PySpark. The SQL file and the PySpark pipeline implement the same seven analytical tasks so the two approaches can be compared side by side.
 
----
+## Project Overview
 
-## 🛠️ Tech Stack
+- `etl_pipeline.py` loads the datasets, cleans missing customer IDs, casts `total_amount` to a numeric type, and runs the analysis with Spark DataFrame operations.
+- `queries.sql` contains the SQL equivalents of the same tasks.
+- `schemas.sql` documents the table structure used for the analysis.
+- `screenshots/` stores the visual outputs captured from the completed tasks.
 
-| Technology | Purpose |
-|------------|---------|
-| 🐍 Python | Programming Language |
-| ⚡ Apache Spark (PySpark) | Distributed Data Processing |
-| 🗄️ SQL | Data Analysis |
-| 📄 CSV | Input Dataset |
-
----
-
-## 📁 Project Structure
+## Files in This Folder
 
 ```text
-├── etl_pipeline.py          # PySpark implementation
-├── queries.sql              # SQL queries
-├── README.md                # Project documentation
+├── etl_pipeline.py
+├── queries.sql
+├── schemas.sql
+├── README.md
 └── screenshots/
-    ├── average_order_amount.png
-    ├── city_wise_total_revenue.png
-    ├── customer_total_spend.png
-    ├── customers_sorted_by_total_spend.png
-    ├── customers_with_more_than_one_order.png
-    ├── customers_with_no_orders.png
-    └── top_3_customers.png
 ```
 
----
+## Data Used
 
-## 📂 Dataset
+The pipeline reads the following CSV files from `/samples`:
 
-### 👥 `customers.csv`
+- `customers.csv`
+- `sales.csv`
 
-Contains customer information.
+### customers.csv
 
 | Column |
 |--------|
@@ -48,9 +37,7 @@ Contains customer information.
 | city |
 | state |
 
-### 💰 `sales.csv`
-
-Contains sales transaction details.
+### sales.csv
 
 | Column |
 |--------|
@@ -61,115 +48,55 @@ Contains sales transaction details.
 | quantity |
 | total_amount |
 
----
+## Analytical Tasks
 
-## 🎯 Project Objectives
+1. Calculate total order amount for each customer.
+2. Find the top 3 customers by total spend.
+3. Identify customers with no orders.
+4. Calculate city-wise total revenue.
+5. Compute average order amount per customer.
+6. Find customers with more than one order.
+7. Sort customers by total spend in descending order.
 
-- 📊 Analyze customer purchasing behavior.
-- 🔄 Compare SQL queries with equivalent PySpark DataFrame operations.
-- 📈 Perform aggregations, joins, filtering, and sorting.
-- ⚡ Practice ETL transformations using structured datasets.
-
----
-
-## 📈 Analysis Performed
-
-| Task | Description |
-|------|-------------|
-| ✅ Task 1 | Calculate total order amount for each customer |
-| ✅ Task 2 | Find the top 3 customers by total spending |
-| ✅ Task 3 | Identify customers with no orders |
-| ✅ Task 4 | Calculate city-wise total revenue |
-| ✅ Task 5 | Compute average order amount per customer |
-| ✅ Task 6 | Find customers with more than one order |
-| ✅ Task 7 | Sort customers by total spending |
-
----
-
-## 🔄 ETL Workflow
+## ETL Flow
 
 ```text
-Load CSV Files
-        │
-        ▼
-Clean Missing Values
-        │
-        ▼
-Convert Data Types
-        │
-        ▼
-Perform SQL & PySpark Analysis
-        │
-        ▼
-Generate Business Insights
+Load CSV data
+        |
+        v
+Drop rows with missing customer_id
+        |
+        v
+Cast total_amount to double
+        |
+        v
+Run SQL and PySpark analysis
+        |
+        v
+Review the resulting outputs
 ```
 
----
+## How to Run
 
-## ▶️ Running the Project
+### In Databricks or Spark
 
-### Clone the Repository
+Run the notebook or job with access to the `/samples` directory used in the script.
 
-```bash
-git clone https://github.com/your-username/Week4.git
-```
-
-### Navigate to Phase 2
-
-```bash
-cd phase-2
-```
-
-### Run the PySpark Script
+### With Spark Submit
 
 ```bash
 spark-submit etl_pipeline.py
 ```
 
-or
+### With Python
 
 ```bash
 python etl_pipeline.py
 ```
 
-> **Note:** Ensure **PySpark** is installed and configured before running the project.
+## Notes
 
----
+- The script uses `left_anti` join logic to find customers with no orders.
+- The SQL file mirrors the Spark logic for direct comparison.
+- The outputs in `screenshots/` correspond to the seven analytical tasks above.
 
-## 📷 Output Screenshots
-
-The `screenshots/` folder contains outputs for all analytical tasks.
-
-- 💰 Customer Total Spend
-- 🏆 Top 3 Customers by Total Spend
-- 🚫 Customers With No Orders
-- 🌆 City-wise Total Revenue
-- 📊 Average Order Amount per Customer
-- 👥 Customers With More Than One Order
-- 📈 Customers Sorted by Total Spend
-
----
-
-## 🎯 Learning Outcomes
-
-Through this project, I gained hands-on experience with:
-
-- SQL Aggregations
-- GROUP BY & HAVING
-- JOIN Operations
-- Sorting & Ranking
-- Spark DataFrame API
-- SQL to PySpark Translation
-- Data Cleaning & Type Casting
-- ETL Pipeline Development
-- Business Data Analysis
-
----
-
-## 👩‍💻 Author
-
-**CHINTAKULA DURGA SRUJANA**
-
-🎓 B.Tech – Computer Science Engineering
-
-**Skills:** SQL • Python • PySpark • Apache Spark • Data Engineering
